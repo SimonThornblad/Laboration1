@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lecture 1 JS example</title>
+
+    <style>
+        #txt1{
+            float: right;
+            width: 50px;
+            height: 10px;
+        }
+
+        #txt2{
+            float: right;
+            width: 50px;
+            height: 10px;
+        }
+    </style>
+
+    <style>
+        .page{
+            width: 170px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="page">
+
+    <label>First number:</label>
+    <input id="txt1" type="text"><br>
+
+<!--    <label>Second number:</label>
+    <input id="txt2" type="text">-->
+
+    <input type="button" name="Add" value="Check" onclick="testPassword()"/>
+    <p id="result"></p>
+
+
+
+    <script>
+    function testPassword() {
+        var pw1 = document.getElementById("txt1");
+        var len = pw1.;
+
+
+
+
+
+
+        if(pw1.value.length > 2) {
+            document.getElementById("txt1").innerHTML="Tillräckligt långt" + pw1;
+            document.write("hejsan");
+
+    }
+</script>
+
+
+</div>
+<!--<script>
+    function addTwoNumbers() {
+        var num1 = document.getElementById("txt1").value;
+        var num2 = document.getElementById("txt2").value;
+
+        var result = Number(num1) + Number(num2);
+
+        if(result > 10) {
+            document.getElementById("result").innerHTML="Result: " + result;
+        }
+    }
+</script>-->
+
+
+<!--
+if (pw1.outerHTML)
+len = pw1.outerHTML;
+else if (XMLSerializer)
+len = new XMLSerializer().serializeToString(pw1);
+-->
+
+</body>
+</html>

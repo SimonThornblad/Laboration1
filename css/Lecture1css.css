@@ -1,0 +1,41 @@
+.menu {
+    height: 100px;
+    background-color: mediumblue;
+}
+
+.sidebar {
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}
+
+.content {
+    width: 650px;
+    height: 500px;
+    background-color: yellow;
+}
+
+.footer {
+    height: 200px;
+    background-color: lightblue;
+}
+
+.page {
+    width: 900px;
+    margin: 0px;
+    border: 1px solid red;
+}
+
+.logo {
+    float: left;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
